@@ -1,0 +1,7 @@
+QuantLib>=1.30
+torch>=2.0
+numpy
+pandas
+matplotlib
+jupyter
+scipy
