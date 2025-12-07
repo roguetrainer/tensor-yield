@@ -5,6 +5,8 @@
 ## Overview
 This repository serves as a practical refresher for quantitative developers and risk managers. It implements the **Generic Calibration Framework** described in the public domain paper *The Past, Present and Future of Curves* (2012) and extends it to modern Deep Learning workflows.
 
+**Part of the [Rusty Quant](https://github.com/roguetrainer/rusty-quant) initiative and the [Around the World in 81 Repos](https://github.com/roguetrainer/around-the-world-in-81-repos) collection.**
+
 ## Structure
 * **src/classic.py**: Implements the 2012 Dual-Curve bootstrap (OIS + LIBOR) using the "Calibration Target" and "Instrument Strategy" abstractions.
 * **src/modern.py**: Adapts the architecture for 2025 Risk-Free Rates (SOFR/SONIA), focusing on OIS-centric construction.
